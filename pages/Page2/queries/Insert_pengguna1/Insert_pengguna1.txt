@@ -1,0 +1,1 @@
+INSERT INTO pengguna (whatsapp_number,nama,emel) VALUES ('{{(SenaraiPengguna.newRow || {}).whatsapp_number}}','{{(SenaraiPengguna.newRow || {}).nama}}','{{(SenaraiPengguna.newRow || {}).emel}}')

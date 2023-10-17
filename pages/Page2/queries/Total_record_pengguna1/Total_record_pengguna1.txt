@@ -1,0 +1,1 @@
+SELECT COUNT(*) from pengguna WHERE nama LIKE '%{{SenaraiPengguna.searchText}}%';

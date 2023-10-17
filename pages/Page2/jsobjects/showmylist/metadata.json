@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "showmylist",
+    "pageId": "Page2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page2_showmylist",
+  "deleted": false,
+  "gitSyncId": "6523e3d3e15cf357d0308390_6525494679de6c0ea663de57"
+}

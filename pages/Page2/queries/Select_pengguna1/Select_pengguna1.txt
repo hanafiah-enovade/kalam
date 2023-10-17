@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  pengguna
+WHERE
+  nama LIKE '%{{SenaraiPengguna.searchText}}%'
+ORDER BY
+  {{SenaraiPengguna.sortOrder.column || 'id'}} {{SenaraiPengguna.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{SenaraiPengguna.pageOffset}}

@@ -1,0 +1,1 @@
+UPDATE pengguna SET whatsapp_number= '{{SenaraiPengguna.updatedRow.whatsapp_number}}', nama= '{{SenaraiPengguna.updatedRow.nama}}', emel= '{{Table1.updatedRow.emel}}' WHERE id= '{{SenaraiPengguna.updatedRow.id}}';

@@ -1,0 +1,5 @@
+UPDATE pengguna SET
+		whatsapp_number = '{{update_form.fieldState.whatsapp_number.isVisible ? update_form.formData.whatsapp_number : update_form.sourceData.whatsapp_number}}',
+		nama = '{{update_form.fieldState.nama.isVisible ? update_form.formData.nama : update_form.sourceData.nama}}',
+    emel = '{{update_form.fieldState.emel.isVisible ? update_form.formData.emel : update_form.sourceData.emel}}'
+WHERE id = {{data_table.selectedRow.id}};

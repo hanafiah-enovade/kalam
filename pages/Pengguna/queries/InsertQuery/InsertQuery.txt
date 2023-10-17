@@ -1,0 +1,8 @@
+INSERT INTO pengguna (
+	whatsapp_number,
+	nama,
+	emel)
+VALUES (
+	'{{insert_form.formData.whatsapp_number}}',
+	'{{insert_form.formData.nama}}',
+	'{{insert_form.formData.emel}}');
